@@ -285,3 +285,8 @@ https://goerli.etherscan.io/tx/0x4456fa63dc557ca8a5bcae31553d313c1d4ba3eab91513e
 
 Utilice StarkGate, el puente StarkNet L2 ( contrato L1 / aplicación web ) para transferir su Goerli L1 ETH 
 existente hacia y desde la cuenta L2.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CON ESTO DAMOS POR CONCLUIDO EL PRIMER TEST Y TUTORIAL DE CAIRO & STARKNET USANDO NILE EN VS CODE. EN LAS PROXIMAS PRUEBAS 
+PROBAREMOS LAS GUIAS DE CREACIOUN DE UN AMM (AUTOMATED MARKET MAKERS) DE STARKNET.
