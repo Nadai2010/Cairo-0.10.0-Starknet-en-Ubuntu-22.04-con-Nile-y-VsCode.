@@ -20,6 +20,7 @@ func increase_balance{
     return ();
 }
 
+
 // Returns the current balance.
 @view
 func get_balance{
