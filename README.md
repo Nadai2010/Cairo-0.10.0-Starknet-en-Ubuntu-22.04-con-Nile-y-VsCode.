@@ -146,7 +146,7 @@ func main() {
     [ap] = 1000, ap++;                                                                                                 
     [ap] = 2000, ap++;                                                                                                         
     [ap] = [ap - 2] + [ap - 1], ap++;                                                                                                  
-    ret;
+    ret;                                                                                                                                                
 }                                                                                                                               
 
 -¡Eso es todo! Ese es nuestro contrato. Y por fin probaremos la compilacion si está correcto, en mi caso ha 
