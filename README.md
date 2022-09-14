@@ -154,10 +154,8 @@ sido posible después de muchas pruebas, fallos y * en este documento.
 ```bash
 nile compile
 ```
-🤖 Compiling all Cairo contracts in the contracts directory
-
-🔨 Compiling contracts/test.cairo
-
+🤖 Compiling all Cairo contracts in the contracts directory                                                                                      
+🔨 Compiling contracts/test.cairo                                                                                                                      
 ✅ Done
 
 
@@ -187,16 +185,11 @@ cairo-run \
 ```
 -Una muestra de como se veria.
 
-Number of steps: 4 (originally, 4)
-
-Used memory cells: 11
-
-Register values after execution:
-
-pc = 12
-
-ap = 12
-
+Number of steps: 4 (originally, 4)                                                                                                            
+Used memory cells: 11                                                                                                               
+Register values after execution:                                                                                                                        
+pc = 12                                                                                                                                            
+ap = 12                                                                                                                                                   
 fp = 12
 
 -Puede abrir el rastreador de El Cairo proporcionando el indicador --tracer a cairo-run.
@@ -208,17 +201,12 @@ fp = 12
 ```
 -Una muestra de como se veria.
 
-Number of steps: 4 (originally, 4)
-
-Used memory cells: 11
-
-Register values after execution:
-
-pc = 12
-
-ap = 12
-
-fp = 12
+Number of steps: 4 (originally, 4)                                                                                                                  
+Used memory cells: 11                                                                                                                                    
+Register values after execution:                                                                                                                  
+pc = 12                                                                                                                                              
+ap = 12                                                                                                                                             
+fp = 12                                                                                                                                                
 
 
 Running tracer on http://localhost:8100/
