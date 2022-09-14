@@ -267,8 +267,8 @@ Sent deploy account contract transaction.
 NOTE: This is a modified version of the OpenZeppelin account contract. The signature is computed
 differently.
 
-Contract address: 0x0180d3921df180beb87946532e053cc1beda132ffdf2b0e35c33880374ab8930
-Public key: 0x03206b0ea93173079bb51bf185a63b0c4598ea5ca64aa7063d66b080c1dadb91
+Contract address: 0x0180d3921df180beb87946532e053cc1beda132ffdf2b0e35c33880374ab8930                                 
+Public key: 0x03206b0ea93173079bb51bf185a63b0c4598ea5ca64aa7063d66b080c1dadb91                                                                     
 Transaction hash: 0x4e29dbe4f234340c0a710d77a3b6bb705c85d716bbd0f1f80d4742d5aa24290
 
 
