@@ -109,14 +109,10 @@ instalará dependencias como el idioma Cairo, una red local y un marco de prueba
 ```bash
 nile init
 ```
-🗄 Instalando Cairo 
-
-✨ ¡Cairo instalado con éxito! 
-
-✅ Dependencias instaladas con éxito 
-
-🗄 Creación del árbol de directorios del proyecto 
-
+🗄 Instalando Cairo                                                                                                                      
+✨ ¡Cairo instalado con éxito!                                                                                                                           
+✅ Dependencias instaladas con éxito                                                                                       
+🗄 Creación del árbol de directorios del proyecto                                                                                    
 ⛵️ ¡Proyecto Nile listo! Intente ejecutar: 
 
 
@@ -146,12 +142,12 @@ Usa un preajuste de Smart de una de las guias exportadas.
 
 -Cambie el nombre de contracts/contract.cairo a contracts/test.cairo y reemplace su contenido con:
 
-func main() {
-    [ap] = 1000, ap++;
-    [ap] = 2000, ap++;
-    [ap] = [ap - 2] + [ap - 1], ap++;
+func main() {                                                                                                           
+    [ap] = 1000, ap++;                                                                                                 
+    [ap] = 2000, ap++;                                                                                                         
+    [ap] = [ap - 2] + [ap - 1], ap++;                                                                                                  
     ret;
-}
+}                                                                                                                               
 
 -¡Eso es todo! Ese es nuestro contrato. Y por fin probaremos la compilacion si está correcto, en mi caso ha 
 sido posible después de muchas pruebas, fallos y * en este documento.
