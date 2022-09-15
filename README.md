@@ -1,8 +1,24 @@
-# Nadai-Cairo
+   <h4>Cairo 0.10.0 Starknet en Ubuntu 22.04 con Nile y VsCode.</h4>
 
+</div>
+
+---
+## Tabla de contenido <!-- omit in toc -->
+- [Información](#información)
+- [Instalación](#instalación)
+  - [Instalación Python](#instalación-python)
+  - [Instalación pip](#instalación-pip)
+- [VsCode para tu Cairo usando Nile](#vscode-para-tu-cairo-usando-nile)
+- [Instalación de Cairo-Nile](#instalación-de-cairo-nile)
+- [Configurando la red](#configurando-la-red)
+  - [Crear una cuenta](#crear-una-cuenta)
+  - [Transferir Goerli ETH a la cuenta creada](#transferir-goerli-eth-a-la-cuenta-creada)
+---------------------------------------------------------------------------------------------------------------------------
+
+## Información:
 Configurando el entorno Cairo 0.10.0 & Starknet para Ubuntu 22.04 usando Nile y VsCode.
 
-Instalación:
+## Instalación:
 Recomendamos trabajar dentro de un entorno virtual Python, pero también puede instalar el paquete Cairo  
 directamente. Para crear e ingresar al entorno virtual, abrimos una terminal (Ctrl+Alt+T):
 ```bash
@@ -29,7 +45,7 @@ Asegúrese de que venv esté activado; debería verlo (cairo_venv)en el indicado
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-
+### Instalación Python:
 *En caso de error a instalar python3.9
 
 -La instalación de Python 3.9 en Ubuntu con apt es un proceso sencillo, que además se puede llevar a cabo 
@@ -58,7 +74,7 @@ python3.9 --version
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+### Instalación pip
 -Asegúrese de poder instalar los siguientes paquetes pip: ecdsa, fastecdsa, sympy (usando ). 
  ```bash
 pip3 install ecdsa fastecdsa sympy
@@ -76,8 +92,8 @@ Si todo ha salido bien con estas instrucciones, perfecto. Es muy probable que no
 los (*) añadidos has sido problemas que han ido surgiendo y como se han solucionado.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-
-VsCode para tu Cairo usando Nile (Nile seria como un Hardhat en Solidity)
+## VsCode para tu Cairo usando Nile 
+(Nile seria como un Hardhat en Solidity)
 
 Primero recomendamos instalar las dos extensiones de Cairo & Cairo language support for Starknet.
   1. Fue creada por starkware
@@ -93,7 +109,8 @@ cd myproject
 python3 -m venv env
 source env/bin/activate
 ```
--Instalación de Nile:
+## Instalación de Cairo-Nile:
+-Emepezamos la instalación de Nile con los siguiente comandos:
 ```bash
 pip install cairo-nile
 pip install cairo-lang cairo-nile openzeppelin-cairo-contracts==0.4.0b
@@ -216,7 +233,7 @@ aprender tutoriales basicos de Hello Cairo y Starknet.
 
 ------------------------------------------------------------------------------------------------------------------
 
-Configurando la red:
+## Configurando la red:
 
 -En este tutorial, utilizaremos la CLI de StarkNet (interfaz de línea de comandos) para interactuar con 
 StarkNet. Para indicarle a la CLI que funcione con la red de prueba StarkNet, puede agregar la 
@@ -239,7 +256,8 @@ se calcula de manera diferente). Establezca la STARKNET_WALLETvariable de entorn
 ```bash
 export STARKNET_WALLET=starkware.starknet.wallets.open_zeppelin.OpenZeppelinAccount
 ```
-Crear una cuenta:
+### Crear una cuenta:
+
 -Ejecute el siguiente comando para crear una cuenta:
 ```bash
 starknet deploy_account
@@ -269,7 +287,7 @@ sin respaldo en su directorio de inicio). Solo debe usarlos si no le preocupa de
 sus cuentas (por ejemplo, con fines de prueba). Además, no se implementan con el patrón de proxy, por lo que
 no se pueden actualizar y pueden dejar de funcionar en futuras versiones de StarkNet.
 
-Transferir Goerli ETH a la cuenta:
+## Transferir Goerli ETH a la cuenta creada:
 
 Para ejecutar transacciones en StarkNet, deberá tener ETH en su cuenta L2 (para pagar las tarifas de 
 transacción). Puede adquirir L2 ETH de las siguientes maneras:
