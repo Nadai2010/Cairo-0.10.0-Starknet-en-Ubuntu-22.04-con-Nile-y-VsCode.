@@ -15,10 +15,10 @@
   - [Transferir Goerli ETH a la cuenta creada](#transferir-goerli-eth-a-la-cuenta-creada)
 ---------------------------------------------------------------------------------------------------------------------------
 
-## Información:
+## Información
 Configurando el entorno Cairo 0.10.0 & Starknet para Ubuntu 22.04 usando Nile y VsCode.
 
-## Instalación:
+## Instalación
 Recomendamos trabajar dentro de un entorno virtual Python, pero también puede instalar el paquete Cairo  
 directamente. Para crear e ingresar al entorno virtual, abrimos una terminal (Ctrl+Alt+T):
 ```bash
@@ -45,7 +45,7 @@ Asegúrese de que venv esté activado; debería verlo (cairo_venv)en el indicado
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-### Instalación Python:
+### Instalación Python
 *En caso de error a instalar python3.9
 
 -La instalación de Python 3.9 en Ubuntu con apt es un proceso sencillo, que además se puede llevar a cabo 
@@ -109,7 +109,7 @@ cd myproject
 python3 -m venv env
 source env/bin/activate
 ```
-## Instalación de Cairo-Nile:
+## Instalación de Cairo-Nile
 -Emepezamos la instalación de Nile con los siguiente comandos:
 ```bash
 pip install cairo-nile
@@ -233,7 +233,7 @@ aprender tutoriales basicos de Hello Cairo y Starknet.
 
 ------------------------------------------------------------------------------------------------------------------
 
-## Configurando la red:
+## Configurando la red
 
 -En este tutorial, utilizaremos la CLI de StarkNet (interfaz de línea de comandos) para interactuar con 
 StarkNet. Para indicarle a la CLI que funcione con la red de prueba StarkNet, puede agregar la 
@@ -256,7 +256,7 @@ se calcula de manera diferente). Establezca la STARKNET_WALLETvariable de entorn
 ```bash
 export STARKNET_WALLET=starkware.starknet.wallets.open_zeppelin.OpenZeppelinAccount
 ```
-### Crear una cuenta:
+### Crear una cuenta
 
 -Ejecute el siguiente comando para crear una cuenta:
 ```bash
@@ -287,7 +287,7 @@ sin respaldo en su directorio de inicio). Solo debe usarlos si no le preocupa de
 sus cuentas (por ejemplo, con fines de prueba). Además, no se implementan con el patrón de proxy, por lo que
 no se pueden actualizar y pueden dejar de funcionar en futuras versiones de StarkNet.
 
-## Transferir Goerli ETH a la cuenta creada:
+## Transferir Goerli ETH a la cuenta creada
 
 Para ejecutar transacciones en StarkNet, deberá tener ETH en su cuenta L2 (para pagar las tarifas de 
 transacción). Puede adquirir L2 ETH de las siguientes maneras:
